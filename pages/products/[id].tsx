@@ -18,7 +18,6 @@ export async function getStaticProps({ params }:any) {
 export async function getStaticPaths() {
     const req= await fetch(`http://localhost:3000/products.json`);
     const data=await req.json();
-    
     const paths=data.map((product:any) =>{
         return{
             params:{
