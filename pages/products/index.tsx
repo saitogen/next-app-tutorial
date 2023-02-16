@@ -8,8 +8,18 @@ export default function ProductsList(){
                 <h2 className={styles.title}>商品一覧</h2>
                 <ul>
                     <li>
-                        <Link href="./products/smartPhone">
+                        <Link href="/products/smartphone">
                             スマートフォン
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/products/pc">
+                            PC
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/products/headphone">
+                            ヘッドホン
                         </Link>
                     </li>
                 </ul>
